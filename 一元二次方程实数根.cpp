@@ -1,20 +1,20 @@
-//ÇóÒ»Ôª¶þ´Î·½³ÌÊµÊý¸ù£¬²»ÖªµÀ¶Ô²»¶Ô¡£¡£¡£¡£
+//æ±‚ä¸€å…ƒäºŒæ¬¡æ–¹ç¨‹å®žæ•°æ ¹
 #include<iostream>
 #include<cmath>
 using namespace std;
 int main()
 {
 	int a,b,c ;double delta,x1,x2;
-	cout<<"ÇëÊäÈëabcµÄÖµ£º"<<endl;
+	cout<<"è¯·è¾“å…¥abcçš„å€¼ï¼š"<<endl;
 	cin>>a>>b>>c;
 	do
 	{
-	cout<<"²»ºÏ·¨µÄÒ»Ôª¶þ´Î·½³Ì"<<endl;
+	cout<<"ä¸åˆæ³•çš„ä¸€å…ƒäºŒæ¬¡æ–¹ç¨‹"<<endl;
 	} while (a=0);
 	delta=b*b-4*a*c;
 	if (delta<0)
 	{
-	cout<<"´ËÒ»Ôª¶þ´Î·½³ÌÃ»ÓÐÊµÊý¸ù"<<endl;
+	cout<<"æ­¤ä¸€å…ƒäºŒæ¬¡æ–¹ç¨‹æ²¡æœ‰å®žæ•°æ ¹"<<endl;
 	}
 	else
 	{
