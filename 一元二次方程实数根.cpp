@@ -7,10 +7,6 @@ int main()
 	int a,b,c ;double delta,x1,x2;
 	cout<<"请输入abc的值："<<endl;
 	cin>>a>>b>>c;
-	do
-	{
-	cout<<"不合法的一元二次方程"<<endl;
-	} while (a=0);
 	delta=b*b-4*a*c;
 	if (delta<0)
 	{
